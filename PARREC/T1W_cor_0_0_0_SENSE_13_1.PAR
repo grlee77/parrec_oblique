@@ -1,0 +1,103 @@
+# === DATA DESCRIPTION FILE ======================================================
+#
+# CAUTION - Investigational device.
+# Limited by Federal Law to investigational use.
+#
+# Dataset name: E:\\Export\\T1W_cor_0_0_0_SENSE_13_1
+#
+# CLINICAL TRYOUT             Research image export tool     V4.2
+#
+# === GENERAL INFORMATION ========================================================
+#
+.    Patient name                       :
+.    Examination name                   :
+.    Protocol name                      :
+.    Examination date/time              :
+.    Series Type                        :   Image   MRSERIES
+.    Acquisition nr                     :   13
+.    Reconstruction nr                  :   1
+.    Scan Duration [sec]                :   7.59
+.    Max. number of cardiac phases      :   1
+.    Max. number of echoes              :   1
+.    Max. number of slices/locations    :   1
+.    Max. number of dynamics            :   1
+.    Max. number of mixes               :   1
+.    Patient position                   :   Head First Supine
+.    Preparation direction              :   Right-Left
+.    Technique                          :   T1TFE
+.    Scan resolution  (x, y)            :   416  334
+.    Scan mode                          :   2D
+.    Repetition time [ms]               :   30.237
+.    FOV (ap,fh,rl) [mm]                :   5.000  240.000  240.000
+.    Water Fat shift [pixels]           :   11.174
+.    Angulation midslice(ap,fh,rl)[degr]:   0.000  0.000  0.000
+.    Off Centre midslice(ap,fh,rl) [mm] :   -10.220  0.000  -2.405
+.    Flow compensation <0=no 1=yes> ?   :   0
+.    Presaturation     <0=no 1=yes> ?   :   0
+.    Phase encoding velocity [cm/sec]   :   0.000000  0.000000  0.000000
+.    MTC               <0=no 1=yes> ?   :   0
+.    SPIR              <0=no 1=yes> ?   :   0
+.    EPI factor        <0,1=no EPI>     :   1
+.    Dynamic scan      <0=no 1=yes> ?   :   0
+.    Diffusion         <0=no 1=yes> ?   :   0
+.    Diffusion echo time [ms]           :   0.0000
+.    Max. number of diffusion values    :   1
+.    Max. number of gradient orients    :   1
+.    Number of label types   <0=no ASL> :   0
+#
+# === PIXEL VALUES =============================================================
+#  PV = pixel value in REC file, FP = floating point value, DV = displayed value on console
+#  RS = rescale slope,           RI = rescale intercept,    SS = scale slope
+#  DV = PV * RS + RI             FP = DV / (RS * SS)
+#
+# === IMAGE INFORMATION DEFINITION =============================================
+#  The rest of this file contains ONE line per image, this line contains the following information:
+#
+#  slice number                             (integer)
+#  echo number                              (integer)
+#  dynamic scan number                      (integer)
+#  cardiac phase number                     (integer)
+#  image_type_mr                            (integer)
+#  scanning sequence                        (integer)
+#  index in REC file (in images)            (integer)
+#  image pixel size (in bits)               (integer)
+#  scan percentage                          (integer)
+#  recon resolution (x y)                   (2*integer)
+#  rescale intercept                        (float)
+#  rescale slope                            (float)
+#  scale slope                              (float)
+#  window center                            (integer)
+#  window width                             (integer)
+#  image angulation (ap,fh,rl in degrees )  (3*float)
+#  image offcentre (ap,fh,rl in mm )        (3*float)
+#  slice thickness (in mm )                 (float)
+#  slice gap (in mm )                       (float)
+#  image_display_orientation                (integer)
+#  slice orientation ( TRA/SAG/COR )        (integer)
+#  fmri_status_indication                   (integer)
+#  image_type_ed_es  (end diast/end syst)   (integer)
+#  pixel spacing (x,y) (in mm)              (2*float)
+#  echo_time                                (float)
+#  dyn_scan_begin_time                      (float)
+#  trigger_time                             (float)
+#  diffusion_b_factor                       (float)
+#  number of averages                       (integer)
+#  image_flip_angle (in degrees)            (float)
+#  cardiac frequency   (bpm)                (integer)
+#  minimum RR-interval (in ms)              (integer)
+#  maximum RR-interval (in ms)              (integer)
+#  TURBO factor  <0=no turbo>               (integer)
+#  Inversion delay (in ms)                  (float)
+#  diffusion b value number    (imagekey!)  (integer)
+#  gradient orientation number (imagekey!)  (integer)
+#  contrast type                            (string)
+#  diffusion anisotropy type                (string)
+#  diffusion (ap, fh, rl)                   (3*float)
+#  label type (ASL)            (imagekey!)  (integer)
+#
+# === IMAGE INFORMATION ==========================================================
+#  sl ec  dyn ph ty    idx pix scan% rec size                (re)scale              window        angulation              offcentre        thick   gap   info      spacing     echo     dtime   ttime    diff  avg  flip    freq   RR-int  turbo delay b grad cont anis         diffusion       L.ty
+
+  1   1    1  1 0 2     0  16    80  560  560     0.00000   2.15189 7.87914e-001  1070  1860   0.00  -0.00  -0.00  -10.22    0.00   -2.40  5.000  0.000 0 3 0 2  0.429  0.429  14.99    0.00     0.00    0.00   1   90.00     0    0    0   239   0.0  1   1    7    0   0.000    0.000    0.000  1
+
+# === END OF DATA DESCRIPTION FILE ===============================================
